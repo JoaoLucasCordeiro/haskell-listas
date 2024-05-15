@@ -8,4 +8,4 @@ perfeitos n = [x | x <- [1..n], sum (fatores x) == x]
 
 main :: IO ()
 main = do
-    print $ perfeitos 10000
+    print $ perfeitos 500
